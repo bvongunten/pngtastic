@@ -7,7 +7,7 @@
 
 	<groupId>com.github.depsypher</groupId>
 	<artifactId>pngtastic</artifactId>
-	<version>1.7-SNAPSHOT</version>
+	<version>1.7-SNAPSHOT-M</version>
 
 	<name>Pngtastic</name>
 	<description>A pure Java PNG image optimization and manipulation library</description>
@@ -93,10 +93,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
+				<version>3.8.1</version>
 				<configuration>
-					<source>8</source>
-					<target>8</target>
+					<source>14</source>
+					<target>14</target>
 				</configuration>
 			</plugin>
 			<plugin>
